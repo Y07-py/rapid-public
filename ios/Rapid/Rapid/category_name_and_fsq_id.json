@@ -1,0 +1,1919 @@
+[
+  {
+    "yahoo_genre_name": "懐石料理",
+    "genre_code3": "101001",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "5f2c239eb6d05514c70441ee",
+      "52af3b6e3cf9994f4e043c02"
+    ]
+  },
+  {
+    "yahoo_genre_name": "会席料理",
+    "genre_code3": "101002",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "4bf58dd8d48988d100941735",
+      "52e81612bcbc57f1066b79f4"
+    ]
+  },
+  {
+    "yahoo_genre_name": "割ぽう",
+    "genre_code3": "101003",
+    "matched_fsq_id": [
+      "63be6904847c3692a84b9b9e",
+      "53d6c1b0e4b02351e88a83dc",
+      "4e74f6cabd41c4836eac4c31"
+    ]
+  },
+  {
+    "yahoo_genre_name": "料亭",
+    "genre_code3": "101004",
+    "matched_fsq_id": [
+      "4d4b7105d754a06374d81259",
+      "4bf58dd8d48988d1c4941735",
+      "52e81612bcbc57f1066b79f1"
+    ]
+  },
+  {
+    "yahoo_genre_name": "小料理",
+    "genre_code3": "101005",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d142941735",
+      "4bf58dd8d48988d110941735",
+      "4bf58dd8d48988d111941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "精進料理",
+    "genre_code3": "101006",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "4bf58dd8d48988d111941735",
+      "4bf58dd8d48988d1f5941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "京料理",
+    "genre_code3": "101007",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "4bf58dd8d48988d111941735",
+      "5f2c2436b6d05514c704433e"
+    ]
+  },
+  {
+    "yahoo_genre_name": "豆腐料理",
+    "genre_code3": "101008",
+    "matched_fsq_id": [
+      "52af3a7c3cf9994f4e043bed",
+      "52af0bd33cf9994f4e043bdd",
+      "52af3ac83cf9994f4e043bf3"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ゆば料理",
+    "genre_code3": "101009",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb36",
+      "55a59bace4b013909087cb21",
+      "55a59bace4b013909087cb09"
+    ]
+  },
+  {
+    "yahoo_genre_name": "おばんざい",
+    "genre_code3": "101010",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d116941735",
+      "56aa371be4b08b9a8d573544",
+      "4bf58dd8d48988d10a951735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "日本料理",
+    "genre_code3": "101011",
+    "matched_fsq_id": [
+      "5f2c2436b6d05514c704433e",
+      "55a59bace4b013909087cb21",
+      "4bf58dd8d48988d111941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "握り寿司",
+    "genre_code3": "101012",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1d2941735",
+      "55a59bace4b013909087cb2d",
+      "55a59a31e4b013909087cb00"
+    ]
+  },
+  {
+    "yahoo_genre_name": "回転寿司",
+    "genre_code3": "101013",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1d2941735",
+      "55a59bace4b013909087cb2d",
+      "55a59af1e4b013909087cb03"
+    ]
+  },
+  {
+    "yahoo_genre_name": "天ぷら、揚げ物",
+    "genre_code3": "101014",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d16a941735",
+      "55a59bace4b013909087cb33",
+      "52f2ab2ebcbc57f1066b8b31"
+    ]
+  },
+  {
+    "yahoo_genre_name": "とんかつ",
+    "genre_code3": "101015",
+    "matched_fsq_id": [
+      "55a59af1e4b013909087cb03",
+      "55a59bace4b013909087cb2d",
+      "55a59bace4b013909087cb06"
+    ]
+  },
+  {
+    "yahoo_genre_name": "フライ",
+    "genre_code3": "101016",
+    "matched_fsq_id": [
+      "55d25775498e9f6a0816a37a",
+      "4bf58dd8d48988d10c941735",
+      "56aa371ce4b08b9a8d573574"
+    ]
+  },
+  {
+    "yahoo_genre_name": "そば",
+    "genre_code3": "101017",
+    "matched_fsq_id": [
+      "56aa371be4b08b9a8d573544",
+      "55a59bace4b013909087cb2d",
+      "4bf58dd8d48988d116941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "うどん",
+    "genre_code3": "101018",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb0c",
+      "55a59bace4b013909087cb2a",
+      "4bf58dd8d48988d1d1941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "味噌煮込みうどん",
+    "genre_code3": "101019",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb2a",
+      "4bf58dd8d48988d1d1941735",
+      "55a59bace4b013909087cb0c"
+    ]
+  },
+  {
+    "yahoo_genre_name": "沖縄そば",
+    "genre_code3": "101020",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d11c941735",
+      "55a59af1e4b013909087cb03",
+      "5f2c239eb6d05514c70441ee"
+    ]
+  },
+  {
+    "yahoo_genre_name": "すき焼き",
+    "genre_code3": "101021",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb18",
+      "55a59bace4b013909087cb12",
+      "55a59bace4b013909087cb2d"
+    ]
+  },
+  {
+    "yahoo_genre_name": "しゃぶしゃぶ",
+    "genre_code3": "101022",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d116941735",
+      "56aa371be4b08b9a8d573564",
+      "4e52d2d203646f7c19daa8ae"
+    ]
+  },
+  {
+    "yahoo_genre_name": "うなぎ",
+    "genre_code3": "101023",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb0f",
+      "58daa1558bbb0b01f18ec1c7",
+      "55a59bace4b013909087cb2a"
+    ]
+  },
+  {
+    "yahoo_genre_name": "どじょう",
+    "genre_code3": "101024",
+    "matched_fsq_id": [
+      "58daa1558bbb0b01f18ec1ca",
+      "4bf58dd8d48988d1f6941735",
+      "55a59bace4b013909087cb0c"
+    ]
+  },
+  {
+    "yahoo_genre_name": "焼き鳥",
+    "genre_code3": "101025",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb09",
+      "5f2c1c31b6d05514c704334c",
+      "4d4ae6fc7a7b7dea34424761"
+    ]
+  },
+  {
+    "yahoo_genre_name": "串焼き",
+    "genre_code3": "101026",
+    "matched_fsq_id": [
+      "53d6c1b0e4b02351e88a83d6",
+      "55a59bace4b013909087cb12",
+      "55a59bace4b013909087cb18"
+    ]
+  },
+  {
+    "yahoo_genre_name": "鳥料理",
+    "genre_code3": "101027",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1ce941735",
+      "55a59bace4b013909087cb09",
+      "52e81612bcbc57f1066b7a00"
+    ]
+  },
+  {
+    "yahoo_genre_name": "おでん",
+    "genre_code3": "101028",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d147941735",
+      "4fbc1be21983fc883593e321",
+      "55a59bace4b013909087cb0c"
+    ]
+  },
+  {
+    "yahoo_genre_name": "お好み焼き、たこ焼き",
+    "genre_code3": "101029",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb18",
+      "55a59bace4b013909087cb2d",
+      "55a59af1e4b013909087cb03"
+    ]
+  },
+  {
+    "yahoo_genre_name": "もんじゃ焼き",
+    "genre_code3": "101030",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb18",
+      "55a59af1e4b013909087cb03",
+      "55a59bace4b013909087cb2d"
+    ]
+  },
+  {
+    "yahoo_genre_name": "丼もの、牛丼、親子丼",
+    "genre_code3": "101031",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d147941735",
+      "5f2c239eb6d05514c70441ee",
+      "4bf58dd8d48988d1d1941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "沖縄料理",
+    "genre_code3": "101032",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "5f2c239eb6d05514c70441ee",
+      "5f2c2436b6d05514c704433e"
+    ]
+  },
+  {
+    "yahoo_genre_name": "郷土料理",
+    "genre_code3": "101033",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b7a00",
+      "55a59bace4b013909087cb21",
+      "52af3a7c3cf9994f4e043bed"
+    ]
+  },
+  {
+    "yahoo_genre_name": "海鮮料理",
+    "genre_code3": "101034",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1ce941735",
+      "4bf58dd8d48988d10e951735",
+      "4bf58dd8d48988d1d2941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ふぐ料理",
+    "genre_code3": "101035",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "55a59bace4b013909087cb0f",
+      "5f2c239eb6d05514c70441ee"
+    ]
+  },
+  {
+    "yahoo_genre_name": "かに料理",
+    "genre_code3": "101036",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "5f2c2436b6d05514c704433e",
+      "55a59bace4b013909087cb2a"
+    ]
+  },
+  {
+    "yahoo_genre_name": "すっぽん料理",
+    "genre_code3": "101037",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "4bf58dd8d48988d1d1941735",
+      "4bf58dd8d48988d111941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "あんこう料理",
+    "genre_code3": "101038",
+    "matched_fsq_id": [
+      "55a59af1e4b013909087cb03",
+      "55a59bace4b013909087cb21",
+      "5f2c2436b6d05514c704433e"
+    ]
+  },
+  {
+    "yahoo_genre_name": "川魚料理",
+    "genre_code3": "101039",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1ce941735",
+      "4bf58dd8d48988d10e951735",
+      "55a59bace4b013909087cb0f"
+    ]
+  },
+  {
+    "yahoo_genre_name": "牡蠣料理",
+    "genre_code3": "101040",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1ce941735",
+      "55a59bace4b013909087cb21",
+      "4bf58dd8d48988d1dd931735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "豚肉料理",
+    "genre_code3": "101041",
+    "matched_fsq_id": [
+      "53d6c1b0e4b02351e88a83d6",
+      "52af3aaa3cf9994f4e043bf0",
+      "52af3ac83cf9994f4e043bf3"
+    ]
+  },
+  {
+    "yahoo_genre_name": "牛肉料理",
+    "genre_code3": "101042",
+    "matched_fsq_id": [
+      "53d6c1b0e4b02351e88a83d6",
+      "4eb1d5724b900d56c88a45fe",
+      "4bf58dd8d48988d111941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "馬肉料理",
+    "genre_code3": "101043",
+    "matched_fsq_id": [
+      "53d6c1b0e4b02351e88a83d6",
+      "4eb1d5724b900d56c88a45fe",
+      "4bf58dd8d48988d156941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "炭火焼き",
+    "genre_code3": "101044",
+    "matched_fsq_id": [
+      "53d6c1b0e4b02351e88a83d6",
+      "4bf58dd8d48988d1df931735",
+      "5f2c3f6b5b4c177b9a6dc388"
+    ]
+  },
+  {
+    "yahoo_genre_name": "鉄板焼き",
+    "genre_code3": "101045",
+    "matched_fsq_id": [
+      "53d6c1b0e4b02351e88a83d6",
+      "55a59af1e4b013909087cb03",
+      "55a59bace4b013909087cb18"
+    ]
+  },
+  {
+    "yahoo_genre_name": "牛タン料理",
+    "genre_code3": "101046",
+    "matched_fsq_id": [
+      "55a59af1e4b013909087cb03",
+      "55a5a1ebe4b013909087cb9e",
+      "52af3b813cf9994f4e043c04"
+    ]
+  },
+  {
+    "yahoo_genre_name": "もつ料理",
+    "genre_code3": "101047",
+    "matched_fsq_id": [
+      "55a59af1e4b013909087cb03",
+      "55a59bace4b013909087cb21",
+      "5f2c239eb6d05514c70441ee"
+    ]
+  },
+  {
+    "yahoo_genre_name": "釜飯",
+    "genre_code3": "101048",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1d1941735",
+      "55a59bace4b013909087cb0c",
+      "55a59bace4b013909087cb21"
+    ]
+  },
+  {
+    "yahoo_genre_name": "くじら料理",
+    "genre_code3": "101049",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "5f2c2436b6d05514c704433e",
+      "5f2c239eb6d05514c70441ee"
+    ]
+  },
+  {
+    "yahoo_genre_name": "炉端焼き",
+    "genre_code3": "101050",
+    "matched_fsq_id": [
+      "55a59a31e4b013909087cb00",
+      "52af0bd33cf9994f4e043bdd",
+      "53d6c1b0e4b02351e88a83d6"
+    ]
+  },
+  {
+    "yahoo_genre_name": "野菜料理",
+    "genre_code3": "101051",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "4bf58dd8d48988d142941735",
+      "4bf58dd8d48988d111941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "にんにく料理",
+    "genre_code3": "101052",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "4bf58dd8d48988d10f941735",
+      "4bf58dd8d48988d111941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "和食（その他）",
+    "genre_code3": "101053",
+    "matched_fsq_id": [
+      "63be6904847c3692a84b9bb5",
+      "55a59bace4b013909087cb21",
+      "56aa371be4b08b9a8d573550"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ステーキ、ハンバーグ",
+    "genre_code3": "102001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1cc941735",
+      "4bf58dd8d48988d1c5941735",
+      "4bf58dd8d48988d16c941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "パスタ、ピザ",
+    "genre_code3": "102002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1ca941735",
+      "55a5a1ebe4b013909087cb74",
+      "4bf58dd8d48988d110941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ハンバーガー",
+    "genre_code3": "102003",
+    "matched_fsq_id": [
+      "63be6904847c3692a84b9c0b",
+      "63be6904847c3692a84b9c0c",
+      "63be6904847c3692a84b9c01"
+    ]
+  },
+  {
+    "yahoo_genre_name": "洋食（その他）",
+    "genre_code3": "102004",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb36",
+      "5f2c239eb6d05514c70441ee",
+      "55a59af1e4b013909087cb03"
+    ]
+  },
+  {
+    "yahoo_genre_name": "フランス料理（フレンチ）",
+    "genre_code3": "102005",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d10c941735",
+      "57558b36e4b065ecebd306ba",
+      "57558b36e4b065ecebd306c0"
+    ]
+  },
+  {
+    "yahoo_genre_name": "イタリア料理（イタリアン）",
+    "genre_code3": "102006",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d110941735",
+      "55a5a1ebe4b013909087cb7f",
+      "55a5a1ebe4b013909087cb98"
+    ]
+  },
+  {
+    "yahoo_genre_name": "スペイン料理",
+    "genre_code3": "102007",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d150941735",
+      "4bf58dd8d48988d14d941735",
+      "57558b36e4b065ecebd306bc"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ポルトガル料理",
+    "genre_code3": "102008",
+    "matched_fsq_id": [
+      "4def73e84765ae376e57713a",
+      "52939ad03cf9994f4e043a3a",
+      "52939ab93cf9994f4e043a38"
+    ]
+  },
+  {
+    "yahoo_genre_name": "地中海料理",
+    "genre_code3": "102009",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1c0941735",
+      "4bf58dd8d48988d10e941735",
+      "4bf58dd8d48988d110941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ドイツ料理",
+    "genre_code3": "102010",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d10d941735",
+      "56aa371ce4b08b9a8d573587",
+      "56aa371ce4b08b9a8d573572"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ロシア料理",
+    "genre_code3": "102011",
+    "matched_fsq_id": [
+      "5293a7563cf9994f4e043a44",
+      "52e928d0bcbc57f1066b7e97",
+      "4bf58dd8d48988d109941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "スイス料理",
+    "genre_code3": "102012",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d158941735",
+      "57558b36e4b065ecebd306da",
+      "52e81612bcbc57f1066b7a09"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ベルギー料理",
+    "genre_code3": "102013",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b7a02",
+      "4bf58dd8d48988d10c941735",
+      "57558b36e4b065ecebd306c0"
+    ]
+  },
+  {
+    "yahoo_genre_name": "アメリカ料理",
+    "genre_code3": "102014",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d157941735",
+      "4bf58dd8d48988d14e941735",
+      "4bf58dd8d48988d14f941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "カリフォルニア料理",
+    "genre_code3": "102015",
+    "matched_fsq_id": [
+      "55a5a1ebe4b013909087cba4",
+      "4bf58dd8d48988d150941735",
+      "52e81612bcbc57f1066b7a00"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ケイジャン料理",
+    "genre_code3": "102016",
+    "matched_fsq_id": [
+      "5f2c2436b6d05514c704433e",
+      "55a59bace4b013909087cb21",
+      "52af3b293cf9994f4e043bfb"
+    ]
+  },
+  {
+    "yahoo_genre_name": "オセアニア料理",
+    "genre_code3": "102017",
+    "matched_fsq_id": [
+      "58daa1558bbb0b01f18ec1ee",
+      "4bf58dd8d48988d109941735",
+      "55a5a1ebe4b013909087cba7"
+    ]
+  },
+  {
+    "yahoo_genre_name": "パシフィックリム料理",
+    "genre_code3": "102018",
+    "matched_fsq_id": [
+      "5f2c2436b6d05514c704433e",
+      "55a59bace4b013909087cb21",
+      "55a59a31e4b013909087cb00"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ハワイ料理",
+    "genre_code3": "102019",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b79fe",
+      "4bf58dd8d48988d144941735",
+      "52af3abe3cf9994f4e043bf2"
+    ]
+  },
+  {
+    "yahoo_genre_name": "西洋各国料理",
+    "genre_code3": "102020",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1cd941735",
+      "4bf58dd8d48988d14f941735",
+      "4bf58dd8d48988d144941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "シーフード、オイスターバー",
+    "genre_code3": "102021",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1dd931735",
+      "55a5a1ebe4b013909087cba7",
+      "5f2c40f15b4c177b9a6dc684"
+    ]
+  },
+  {
+    "yahoo_genre_name": "バーベキュー",
+    "genre_code3": "102022",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d16a941735",
+      "52e81612bcbc57f1066b79f4",
+      "52f2ab2ebcbc57f1066b8b31"
+    ]
+  },
+  {
+    "yahoo_genre_name": "バイキング",
+    "genre_code3": "103001",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b79f4",
+      "4bf58dd8d48988d1f1941735",
+      "56aa371be4b08b9a8d573544"
+    ]
+  },
+  {
+    "yahoo_genre_name": "中華料理",
+    "genre_code3": "104001",
+    "matched_fsq_id": [
+      "54135bf5e4b08f3d2429dfdf",
+      "4bf58dd8d48988d145941735",
+      "52af3a903cf9994f4e043bee"
+    ]
+  },
+  {
+    "yahoo_genre_name": "北京料理",
+    "genre_code3": "104002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d145941735",
+      "4bf58dd8d48988d142941735",
+      "5744ccdfe4b0c0459246b4e2"
+    ]
+  },
+  {
+    "yahoo_genre_name": "上海料理",
+    "genre_code3": "104003",
+    "matched_fsq_id": [
+      "52af3b593cf9994f4e043c00",
+      "4bf58dd8d48988d1ce941735",
+      "52af3b513cf9994f4e043bff"
+    ]
+  },
+  {
+    "yahoo_genre_name": "広東料理",
+    "genre_code3": "104004",
+    "matched_fsq_id": [
+      "52af3ba23cf9994f4e043c08",
+      "52af3b913cf9994f4e043c06",
+      "52af3ab53cf9994f4e043bf1"
+    ]
+  },
+  {
+    "yahoo_genre_name": "四川料理",
+    "genre_code3": "104005",
+    "matched_fsq_id": [
+      "52af3b773cf9994f4e043c03",
+      "52af3b633cf9994f4e043c01",
+      "52af3b9a3cf9994f4e043c07"
+    ]
+  },
+  {
+    "yahoo_genre_name": "台湾料理",
+    "genre_code3": "104006",
+    "matched_fsq_id": [
+      "52af3b813cf9994f4e043c04",
+      "5f2c430e5b4c177b9a6dcabd",
+      "4bf58dd8d48988d149941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "香港料理",
+    "genre_code3": "104007",
+    "matched_fsq_id": [
+      "52af3add3cf9994f4e043bf5",
+      "52af3a7c3cf9994f4e043bed",
+      "4bf58dd8d48988d145941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "餃子",
+    "genre_code3": "104008",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d108941735",
+      "4bf58dd8d48988d148941735",
+      "4bf58dd8d48988d1c7941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "飲茶、点心",
+    "genre_code3": "104009",
+    "matched_fsq_id": [
+      "63be6904847c3692a84b9bb6",
+      "4bf58dd8d48988d1dc931735",
+      "4bf58dd8d48988d16d941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "韓国料理、朝鮮料理",
+    "genre_code3": "105001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d113941735",
+      "5f2c3f6b5b4c177b9a6dc388",
+      "55a59bace4b013909087cb21"
+    ]
+  },
+  {
+    "yahoo_genre_name": "アフリカ料理",
+    "genre_code3": "105002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1c8941735",
+      "4bf58dd8d48988d1cd941735",
+      "4bf58dd8d48988d169941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "タイ料理",
+    "genre_code3": "105003",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d149941735",
+      "52e81612bcbc57f1066b7a03",
+      "4bf58dd8d48988d156941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ベトナム料理",
+    "genre_code3": "105004",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d14a941735",
+      "52e81612bcbc57f1066b7a03",
+      "52939a9e3cf9994f4e043a36"
+    ]
+  },
+  {
+    "yahoo_genre_name": "インドネシア料理",
+    "genre_code3": "105005",
+    "matched_fsq_id": [
+      "54135bf5e4b08f3d2429dfdd",
+      "54135bf5e4b08f3d2429dfde",
+      "4bf58dd8d48988d10f941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "インド料理",
+    "genre_code3": "105006",
+    "matched_fsq_id": [
+      "54135bf5e4b08f3d2429dfdd",
+      "54135bf5e4b08f3d2429dfde",
+      "4bf58dd8d48988d10f941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ネパール料理",
+    "genre_code3": "105007",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b79fb",
+      "52e81612bcbc57f1066b79f8",
+      "52e81612bcbc57f1066b79f7"
+    ]
+  },
+  {
+    "yahoo_genre_name": "パキスタン料理",
+    "genre_code3": "105008",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b79f8",
+      "5e179ee74ae8e90006e9a746",
+      "503288ae91d4c4b30a586d67"
+    ]
+  },
+  {
+    "yahoo_genre_name": "スリランカ料理",
+    "genre_code3": "105009",
+    "matched_fsq_id": [
+      "57558b36e4b065ecebd306d1",
+      "4bf58dd8d48988d150941735",
+      "57558b36e4b065ecebd306da"
+    ]
+  },
+  {
+    "yahoo_genre_name": "トルコ料理",
+    "genre_code3": "105010",
+    "matched_fsq_id": [
+      "5283c7b4e4b094cb91ec88d4",
+      "4f04af1f2fb6e1c99f3db0bb",
+      "56aa371be4b08b9a8d5734c1"
+    ]
+  },
+  {
+    "yahoo_genre_name": "中近東料理、アラビア料理",
+    "genre_code3": "105011",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d115941735",
+      "4bf58dd8d48988d142941735",
+      "4bf58dd8d48988d10e941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "メキシコ料理",
+    "genre_code3": "105012",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1c1941735",
+      "56aa371ae4b08b9a8d5734ba",
+      "5744ccdfe4b0c0459246b4d3"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ブラジル料理",
+    "genre_code3": "105013",
+    "matched_fsq_id": [
+      "52939ad03cf9994f4e043a3a",
+      "4bf58dd8d48988d16b941735",
+      "4def73e84765ae376e57713a"
+    ]
+  },
+  {
+    "yahoo_genre_name": "アジア料理、エスニック（その他）",
+    "genre_code3": "105014",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d142941735",
+      "5f2c2436b6d05514c704433e",
+      "55a59bace4b013909087cb0f"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ラーメン",
+    "genre_code3": "106001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1d1941735",
+      "4bf58dd8d48988d111941735",
+      "55a59bace4b013909087cb24"
+    ]
+  },
+  {
+    "yahoo_genre_name": "つけ麺",
+    "genre_code3": "106002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1d1941735",
+      "5f2c239eb6d05514c70441ee",
+      "55a59bace4b013909087cb24"
+    ]
+  },
+  {
+    "yahoo_genre_name": "カレー",
+    "genre_code3": "107001",
+    "matched_fsq_id": [
+      "5293a7d53cf9994f4e043a45",
+      "55a59bace4b013909087cb30",
+      "4bf58dd8d48988d16d941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "スープカレー",
+    "genre_code3": "107002",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb30",
+      "4bf58dd8d48988d1d1941735",
+      "55a59bace4b013909087cb21"
+    ]
+  },
+  {
+    "yahoo_genre_name": "欧風カレー",
+    "genre_code3": "107003",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d10e941735",
+      "5293a7d53cf9994f4e043a45",
+      "4bf58dd8d48988d110941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "インドカレー",
+    "genre_code3": "107004",
+    "matched_fsq_id": [
+      "54135bf5e4b08f3d2429dfdd",
+      "54135bf5e4b08f3d2429dfde",
+      "54135bf5e4b08f3d2429dfeb"
+    ]
+  },
+  {
+    "yahoo_genre_name": "タイカレー",
+    "genre_code3": "107005",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb30",
+      "4bf58dd8d48988d149941735",
+      "52e81612bcbc57f1066b7a03"
+    ]
+  },
+  {
+    "yahoo_genre_name": "焼肉",
+    "genre_code3": "108001",
+    "matched_fsq_id": [
+      "53d6c1b0e4b02351e88a83d6",
+      "4bf58dd8d48988d1df931735",
+      "4bf58dd8d48988d11d951735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ジンギスカン",
+    "genre_code3": "108002",
+    "matched_fsq_id": [
+      "58daa1558bbb0b01f18ec1c7",
+      "4bf58dd8d48988d1e1931735",
+      "55a5a1ebe4b013909087cb95"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ホルモン",
+    "genre_code3": "108003",
+    "matched_fsq_id": [
+      "58daa1558bbb0b01f18ec1d9",
+      "4bf58dd8d48988d12d941735",
+      "56aa371be4b08b9a8d573547"
+    ]
+  },
+  {
+    "yahoo_genre_name": "鍋料理",
+    "genre_code3": "109001",
+    "matched_fsq_id": [
+      "52af0bd33cf9994f4e043bdd",
+      "55a59bace4b013909087cb21",
+      "4bf58dd8d48988d1d1941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "定食、食堂",
+    "genre_code3": "111001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d147941735",
+      "55a59bace4b013909087cb21",
+      "63be6904847c3692a84b9bb5"
+    ]
+  },
+  {
+    "yahoo_genre_name": "創作料理",
+    "genre_code3": "112001",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "4bf58dd8d48988d1c2941735",
+      "4bf58dd8d48988d142941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "無国籍料理",
+    "genre_code3": "112002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d111941735",
+      "55a59bace4b013909087cb21",
+      "5f2c2436b6d05514c704433e"
+    ]
+  },
+  {
+    "yahoo_genre_name": "自然食",
+    "genre_code3": "113001",
+    "matched_fsq_id": [
+      "50aa9e744b90af0d42d5de0e",
+      "52f2ab2ebcbc57f1066b8b45",
+      "52e81612bcbc57f1066b7a00"
+    ]
+  },
+  {
+    "yahoo_genre_name": "薬膳",
+    "genre_code3": "113002",
+    "matched_fsq_id": [
+      "55a59bace4b013909087cb21",
+      "4bf58dd8d48988d1d1941735",
+      "52af3b9a3cf9994f4e043c07"
+    ]
+  },
+  {
+    "yahoo_genre_name": "オーガニック",
+    "genre_code3": "113003",
+    "matched_fsq_id": [
+      "52f2ab2ebcbc57f1066b8b45",
+      "58daa1558bbb0b01f18ec1d9",
+      "58daa1558bbb0b01f18ec1c7"
+    ]
+  },
+  {
+    "yahoo_genre_name": "カフェ",
+    "genre_code3": "115001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d16d941735",
+      "53d6c1b0e4b02351e88a83e6",
+      "4bf58dd8d48988d1e0931735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "喫茶店",
+    "genre_code3": "115002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1e0931735",
+      "63be6904847c3692a84b9bb6",
+      "4bf58dd8d48988d1dc931735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "カフェバー",
+    "genre_code3": "115003",
+    "matched_fsq_id": [
+      "53d6c1b0e4b02351e88a83e6",
+      "4bf58dd8d48988d16d941735",
+      "4bf58dd8d48988d1e0931735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "インターネットカフェ",
+    "genre_code3": "115004",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1f0941735",
+      "4bf58dd8d48988d16d941735",
+      "53d6c1b0e4b02351e88a83e6"
+    ]
+  },
+  {
+    "yahoo_genre_name": "シアトルカフェ",
+    "genre_code3": "115005",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d16d941735",
+      "4bf58dd8d48988d1e0931735",
+      "53d6c1b0e4b02351e88a83e6"
+    ]
+  },
+  {
+    "yahoo_genre_name": "複合カフェ",
+    "genre_code3": "115006",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d16d941735",
+      "4bf58dd8d48988d1e0931735",
+      "63be6904847c3692a84b9bb6"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ドッグカフェ",
+    "genre_code3": "115007",
+    "matched_fsq_id": [
+      "56aa371be4b08b9a8d573508",
+      "4bf58dd8d48988d1e0931735",
+      "53d6c1b0e4b02351e88a83e6"
+    ]
+  },
+  {
+    "yahoo_genre_name": "猫カフェ",
+    "genre_code3": "115008",
+    "matched_fsq_id": [
+      "56aa371be4b08b9a8d573508",
+      "4bf58dd8d48988d1e0931735",
+      "4bf58dd8d48988d16d941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ギャラリーカフェ",
+    "genre_code3": "115009",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d18d941735",
+      "4bf58dd8d48988d128941735",
+      "56aa371be4b08b9a8d573508"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ブックカフェ",
+    "genre_code3": "115010",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1e0931735",
+      "53d6c1b0e4b02351e88a83e6",
+      "4bf58dd8d48988d114951735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "マンガ喫茶",
+    "genre_code3": "115011",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1e0931735",
+      "63be6904847c3692a84b9bb6",
+      "5665c7b9498e7d8a4f2c0f06"
+    ]
+  },
+  {
+    "yahoo_genre_name": "軽食",
+    "genre_code3": "115012",
+    "matched_fsq_id": [
+      "590a0744340a5803fd8508c3",
+      "58daa1558bbb0b01f18ec1d0",
+      "4bf58dd8d48988d120951735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "和風喫茶",
+    "genre_code3": "115013",
+    "matched_fsq_id": [
+      "63be6904847c3692a84b9bb6",
+      "4bf58dd8d48988d1dc931735",
+      "4bf58dd8d48988d1e0931735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "カラオケ喫茶",
+    "genre_code3": "115014",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1e0931735",
+      "63be6904847c3692a84b9bb6",
+      "4bf58dd8d48988d120941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "コーヒー専門店",
+    "genre_code3": "116001",
+    "matched_fsq_id": [
+      "5665c7b9498e7d8a4f2c0f06",
+      "4bf58dd8d48988d1e0931735",
+      "63be6904847c3692a84b9bb6"
+    ]
+  },
+  {
+    "yahoo_genre_name": "紅茶専門店",
+    "genre_code3": "116002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1dc931735",
+      "52e81612bcbc57f1066b7a0c",
+      "63be6904847c3692a84b9bb6"
+    ]
+  },
+  {
+    "yahoo_genre_name": "中国茶専門店",
+    "genre_code3": "116003",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1dc931735",
+      "5665c7b9498e7d8a4f2c0f06",
+      "63be6904847c3692a84b9bb6"
+    ]
+  },
+  {
+    "yahoo_genre_name": "日本茶専門店",
+    "genre_code3": "116004",
+    "matched_fsq_id": [
+      "5f2c2436b6d05514c704433e",
+      "4bf58dd8d48988d1dc931735",
+      "63be6904847c3692a84b9bb6"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ベーカリー",
+    "genre_code3": "117001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d16a941735",
+      "52f2ab2ebcbc57f1066b8b31",
+      "4bf58dd8d48988d16d941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "サンドイッチ",
+    "genre_code3": "117002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d148941735",
+      "4bf58dd8d48988d1c5941735",
+      "4bf58dd8d48988d1c7941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ベーグル",
+    "genre_code3": "117003",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b79f1",
+      "63be6904847c3692a84b9c08",
+      "4bf58dd8d48988d117941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ホットドッグ",
+    "genre_code3": "117004",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d16f941735",
+      "52af0bd33cf9994f4e043bdd",
+      "4bf58dd8d48988d148941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "パン、サンドイッチ（その他）",
+    "genre_code3": "117005",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d16a941735",
+      "5744ccdfe4b0c0459246b4e2",
+      "4bf58dd8d48988d148941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "洋菓子、ケーキ",
+    "genre_code3": "118001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d16a941735",
+      "52f2ab2ebcbc57f1066b8b31",
+      "4bf58dd8d48988d1bc941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "和菓子、甘味処、たい焼き",
+    "genre_code3": "118002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d16a941735",
+      "4bf58dd8d48988d1d0941735",
+      "52f2ab2ebcbc57f1066b8b31"
+    ]
+  },
+  {
+    "yahoo_genre_name": "中華菓子",
+    "genre_code3": "118003",
+    "matched_fsq_id": [
+      "52f2ab2ebcbc57f1066b8b31",
+      "4bf58dd8d48988d117951735",
+      "54135bf5e4b08f3d2429dfdf"
+    ]
+  },
+  {
+    "yahoo_genre_name": "アイスクリーム、クレープ、パフェ",
+    "genre_code3": "118004",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1c9941735",
+      "4bf58dd8d48988d1d0941735",
+      "5f2c407c5b4c177b9a6dc536"
+    ]
+  },
+  {
+    "yahoo_genre_name": "バー",
+    "genre_code3": "119001",
+    "matched_fsq_id": [
+      "56aa371ce4b08b9a8d57356c",
+      "4bf58dd8d48988d123941735",
+      "4bf58dd8d48988d11e941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ショットバー",
+    "genre_code3": "119002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d11e941735",
+      "56aa371ce4b08b9a8d57356c",
+      "4bf58dd8d48988d122941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "アイリッシュパブ",
+    "genre_code3": "119003",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1c9941735",
+      "5f2c40f15b4c177b9a6dc684",
+      "52e81612bcbc57f1066b7a0a"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ダイニングバー",
+    "genre_code3": "119004",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d147941735",
+      "4bf58dd8d48988d123941735",
+      "56aa371ce4b08b9a8d57356c"
+    ]
+  },
+  {
+    "yahoo_genre_name": "バル、バール",
+    "genre_code3": "119005",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d116941735",
+      "56aa371ce4b08b9a8d57356c",
+      "4bf58dd8d48988d122941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ビアバー",
+    "genre_code3": "119006",
+    "matched_fsq_id": [
+      "56aa371ce4b08b9a8d57356c",
+      "4bf58dd8d48988d11e941735",
+      "4bf58dd8d48988d123941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ワインバー",
+    "genre_code3": "119007",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d123941735",
+      "4bf58dd8d48988d14b941735",
+      "4bf58dd8d48988d119951735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "焼酎バー",
+    "genre_code3": "119008",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d123941735",
+      "56aa371ce4b08b9a8d57356c",
+      "4bf58dd8d48988d122941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "レストランバー",
+    "genre_code3": "119009",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b79f1",
+      "56aa371ce4b08b9a8d57356c",
+      "4d4b7105d754a06374d81259"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ダーツバー",
+    "genre_code3": "119010",
+    "matched_fsq_id": [
+      "56aa371ce4b08b9a8d57356c",
+      "4bf58dd8d48988d11d941735",
+      "4bf58dd8d48988d118941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ゴルフバー",
+    "genre_code3": "119011",
+    "matched_fsq_id": [
+      "63be6904847c3692a84b9c09",
+      "63be6904847c3692a84b9bf6",
+      "4bf58dd8d48988d1e6941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "パブ",
+    "genre_code3": "120001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d116941735",
+      "4bf58dd8d48988d11b941735",
+      "4bf58dd8d48988d11c941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "スナック",
+    "genre_code3": "120002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1c7941735",
+      "4bf58dd8d48988d128941735",
+      "4bf58dd8d48988d1dd931735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "クラブ",
+    "genre_code3": "120003",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b7a2e",
+      "52e81612bcbc57f1066b7a33",
+      "63be6904847c3692a84b9b22"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ラウンジ",
+    "genre_code3": "120004",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d16d941735",
+      "4bf58dd8d48988d112941735",
+      "52960eda3cf9994f4e043ac7"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ディスコ",
+    "genre_code3": "121001",
+    "matched_fsq_id": [
+      "63be6904847c3692a84b9b23",
+      "4bf58dd8d48988d10d951735",
+      "4bf58dd8d48988d134941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "クラブハウス",
+    "genre_code3": "121002",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b7a35",
+      "63be6904847c3692a84b9b22",
+      "52e81612bcbc57f1066b7a2e"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ビアガーデン",
+    "genre_code3": "122001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d15a941735",
+      "52e81612bcbc57f1066b7a22",
+      "4eb1c0253b7b52c0e1adc2e9"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ファミレス",
+    "genre_code3": "123001",
+    "matched_fsq_id": [
+      "53d6c1b0e4b02351e88a83e4",
+      "53d6c1b0e4b02351e88a83d8",
+      "5267e4d8e4b0ec79466e48c5"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ファストフード",
+    "genre_code3": "123002",
+    "matched_fsq_id": [
+      "56aa371be4b08b9a8d57350b",
+      "52e81612bcbc57f1066b7a00",
+      "50aa9e744b90af0d42d5de0e"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ファストカジュアル",
+    "genre_code3": "123003",
+    "matched_fsq_id": [
+      "50aaa49e4b90af0d42d5de11",
+      "5f2c14a5b6d05514c7042eb7",
+      "4bf58dd8d48988d184941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "パーティースペース、宴会場",
+    "genre_code3": "124001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d171941735",
+      "56aa371be4b08b9a8d57356a",
+      "56aa371be4b08b9a8d5734c5"
+    ]
+  },
+  {
+    "yahoo_genre_name": "カラオケボックス",
+    "genre_code3": "124002",
+    "matched_fsq_id": [
+      "5744ccdfe4b0c0459246b4bb",
+      "4bf58dd8d48988d120941735",
+      "4bf58dd8d48988d10d951735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "屋形船",
+    "genre_code3": "125001",
+    "matched_fsq_id": [
+      "5744ccdfe4b0c0459246b4c1",
+      "4bf58dd8d48988d133951735",
+      "4bf58dd8d48988d12d951735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "クルージング",
+    "genre_code3": "125002",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b7a28",
+      "63be6904847c3692a84b9b9e",
+      "56aa371be4b08b9a8d57351a"
+    ]
+  },
+  {
+    "yahoo_genre_name": "テーマパークレストラン",
+    "genre_code3": "126001",
+    "matched_fsq_id": [
+      "56aa371be4b08b9a8d573538",
+      "5f2c239eb6d05514c70441ee",
+      "4bf58dd8d48988d111941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "アミューズメントレストラン",
+    "genre_code3": "126002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d14e941735",
+      "55a59bace4b013909087cb06",
+      "4bf58dd8d48988d111941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "オーベルジュ",
+    "genre_code3": "127001",
+    "matched_fsq_id": [
+      "57558b36e4b065ecebd306c0",
+      "57558b36e4b065ecebd306b8",
+      "57558b35e4b065ecebd306ad"
+    ]
+  },
+  {
+    "yahoo_genre_name": "その他",
+    "genre_code3": "128001",
+    "matched_fsq_id": [
+      "5267e4d9e4b0ec79466e48c8",
+      "4fbc1be21983fc883593e321",
+      "63be6904847c3692a84b9bc5"
+    ]
+  },
+  {
+    "yahoo_genre_name": "スポーツ施設",
+    "genre_code3": "301001",
+    "matched_fsq_id": [
+      "4f4528bc4b90abdf24c9de85",
+      "5bae9231bedf3950379f89c5",
+      "52e81612bcbc57f1066b7a2e"
+    ]
+  },
+  {
+    "yahoo_genre_name": "野球場",
+    "genre_code3": "301002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1e8941735",
+      "4bf58dd8d48988d18c941735",
+      "63be6904847c3692a84b9bfe"
+    ]
+  },
+  {
+    "yahoo_genre_name": "サッカー場",
+    "genre_code3": "301003",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d188941735",
+      "4cce455aebf7b749d5e191f5",
+      "63be6904847c3692a84b9c1b"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ゴルフ場",
+    "genre_code3": "301004",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1e6941735",
+      "63be6904847c3692a84b9c09",
+      "58daa1558bbb0b01f18ec1b0"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ゴルフ練習場",
+    "genre_code3": "301005",
+    "matched_fsq_id": [
+      "58daa1558bbb0b01f18ec1b0",
+      "63be6904847c3692a84b9c03",
+      "4bf58dd8d48988d1e6941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "テニスコート",
+    "genre_code3": "301006",
+    "matched_fsq_id": [
+      "4e39a956bd410d7aed40cbc3",
+      "4e39a9cebd410d7aed40cbc4",
+      "63be6904847c3692a84b9c12"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ボウリング場",
+    "genre_code3": "301007",
+    "matched_fsq_id": [
+      "52f2ab2ebcbc57f1066b8b47",
+      "56aa371be4b08b9a8d573556",
+      "4e39a891bd410d7aed40cbc2"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ダイビングショップ",
+    "genre_code3": "301008",
+    "matched_fsq_id": [
+      "52f2ab2ebcbc57f1066b8b1a",
+      "52f2ab2ebcbc57f1066b8b16",
+      "63be6904847c3692a84b9beb"
+    ]
+  },
+  {
+    "yahoo_genre_name": "サーフショップ",
+    "genre_code3": "301009",
+    "matched_fsq_id": [
+      "52f2ab2ebcbc57f1066b8b16",
+      "63be6904847c3692a84b9bf9",
+      "4bf58dd8d48988d10e951735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "モータースポーツ",
+    "genre_code3": "301010",
+    "matched_fsq_id": [
+      "59d79d6b2e268052fa2a3332",
+      "4bf58dd8d48988d1f4931735",
+      "63be6904847c3692a84b9c0f"
+    ]
+  },
+  {
+    "yahoo_genre_name": "スキー、スノーボード",
+    "genre_code3": "301011",
+    "matched_fsq_id": [
+      "63be6904847c3692a84b9c19",
+      "63be6904847c3692a84b9c17",
+      "56aa371be4b08b9a8d573566"
+    ]
+  },
+  {
+    "yahoo_genre_name": "レンタルスキー、スノーボード",
+    "genre_code3": "301012",
+    "matched_fsq_id": [
+      "4e4c9077bd41f78e849722f9",
+      "56aa371be4b08b9a8d573552",
+      "63be6904847c3692a84b9c19"
+    ]
+  },
+  {
+    "yahoo_genre_name": "スポーツ（その他）",
+    "genre_code3": "301013",
+    "matched_fsq_id": [
+      "4f4528bc4b90abdf24c9de85",
+      "5bae9231bedf3950379f89c5",
+      "63be6904847c3692a84b9c0f"
+    ]
+  },
+  {
+    "yahoo_genre_name": "麻雀",
+    "genre_code3": "302002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d14c941735",
+      "63be6904847c3692a84b9c0b",
+      "55a59bace4b013909087cb09"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ゲームセンター",
+    "genre_code3": "302003",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d10b951735",
+      "4bf58dd8d48988d18d941735",
+      "52e81612bcbc57f1066b7a34"
+    ]
+  },
+  {
+    "yahoo_genre_name": "遊園地、テーマパーク",
+    "genre_code3": "303001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d182941735",
+      "4bf58dd8d48988d193941735",
+      "4bf58dd8d48988d1e7941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "動物園",
+    "genre_code3": "303002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d17b941735",
+      "58daa1558bbb0b01f18ec1fd",
+      "4bf58dd8d48988d1e5941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "水族館",
+    "genre_code3": "303003",
+    "matched_fsq_id": [
+      "4fceea171983d5d06c3e9823",
+      "4bf58dd8d48988d17b941735",
+      "58daa1558bbb0b01f18ec1fd"
+    ]
+  },
+  {
+    "yahoo_genre_name": "植物園",
+    "genre_code3": "303004",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b7a22",
+      "4bf58dd8d48988d15a941735",
+      "4bf58dd8d48988d166941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "海水浴場、遊泳場",
+    "genre_code3": "303005",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d15e941735",
+      "4bf58dd8d48988d193941735",
+      "52e81612bcbc57f1066b7a28"
+    ]
+  },
+  {
+    "yahoo_genre_name": "キャンプ場",
+    "genre_code3": "303006",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1e4941735",
+      "52f2ab2ebcbc57f1066b8b53",
+      "52e81612bcbc57f1066b7a10"
+    ]
+  },
+  {
+    "yahoo_genre_name": "アウトドア",
+    "genre_code3": "303007",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d162941735",
+      "58daa1558bbb0b01f18ec203",
+      "52f2ab2ebcbc57f1066b8b22"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ボート、ヨット",
+    "genre_code3": "303008",
+    "matched_fsq_id": [
+      "5744ccdfe4b0c0459246b4c1",
+      "4bf58dd8d48988d12d951735",
+      "5fabfc8099ce226e27fe6b0d"
+    ]
+  },
+  {
+    "yahoo_genre_name": "釣り堀、釣り船",
+    "genre_code3": "303009",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b7a0f",
+      "52f2ab2ebcbc57f1066b8b16",
+      "4bf58dd8d48988d10e951735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "プール",
+    "genre_code3": "303010",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d15e941735",
+      "4bf58dd8d48988d132951735",
+      "4bf58dd8d48988d105941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "観光農園",
+    "genre_code3": "303011",
+    "matched_fsq_id": [
+      "55a5a1ebe4b013909087cb7c",
+      "52e81612bcbc57f1066b7a22",
+      "4bf58dd8d48988d15a941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ビリヤード",
+    "genre_code3": "303012",
+    "matched_fsq_id": [
+      "56aa371be4b08b9a8d573544",
+      "4bf58dd8d48988d163941735",
+      "5fac010d99ce226e27fe7467"
+    ]
+  },
+  {
+    "yahoo_genre_name": "レジャー、趣味（その他）",
+    "genre_code3": "303013",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1f1931735",
+      "4f4528bc4b90abdf24c9de85",
+      "63be6904847c3692a84b9c0f"
+    ]
+  },
+  {
+    "yahoo_genre_name": "映画館",
+    "genre_code3": "305001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d17f941735",
+      "4bf58dd8d48988d17e941735",
+      "56aa371be4b08b9a8d5734de"
+    ]
+  },
+  {
+    "yahoo_genre_name": "美術館",
+    "genre_code3": "305002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d18f941735",
+      "4bf58dd8d48988d181941735",
+      "4bf58dd8d48988d1e2931735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "博物館、科学館",
+    "genre_code3": "305003",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d191941735",
+      "4bf58dd8d48988d181941735",
+      "4bf58dd8d48988d18f941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "コンサートホール",
+    "genre_code3": "305004",
+    "matched_fsq_id": [
+      "5032792091d4c4b30a586d5c",
+      "4bf58dd8d48988d173941735",
+      "4bf58dd8d48988d100941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "ライブハウス",
+    "genre_code3": "305005",
+    "matched_fsq_id": [
+      "52e81612bcbc57f1066b7a35",
+      "4bf58dd8d48988d1e5931735",
+      "4bf58dd8d48988d1a3941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "画廊",
+    "genre_code3": "305006",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d1e2931735",
+      "4bf58dd8d48988d18f941735",
+      "58daa1558bbb0b01f18ec1d6"
+    ]
+  },
+  {
+    "yahoo_genre_name": "公園",
+    "genre_code3": "305007",
+    "matched_fsq_id": [
+      "63be6904847c3692a84b9be1",
+      "52e81612bcbc57f1066b7a21",
+      "4bf58dd8d48988d1e5941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "銭湯",
+    "genre_code3": "418001",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d160941735",
+      "4bf58dd8d48988d1ed941735",
+      "4bf58dd8d48988d17c941735"
+    ]
+  },
+  {
+    "yahoo_genre_name": "スーパー銭湯",
+    "genre_code3": "418002",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d160941735",
+      "4bf58dd8d48988d1d6941735",
+      "5267e446e4b0ec79466e48c4"
+    ]
+  },
+  {
+    "yahoo_genre_name": "健康ランド",
+    "genre_code3": "418003",
+    "matched_fsq_id": [
+      "54541900498ea6ccd0202697",
+      "63be6904847c3692a84b9bb9",
+      "63be6904847c3692a84b9bbe"
+    ]
+  },
+  {
+    "yahoo_genre_name": "温泉浴場",
+    "genre_code3": "418004",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d160941735",
+      "52e81612bcbc57f1066b7a28",
+      "52e81612bcbc57f1066b7a27"
+    ]
+  },
+  {
+    "yahoo_genre_name": "岩盤浴",
+    "genre_code3": "418005",
+    "matched_fsq_id": [
+      "4bf58dd8d48988d160941735",
+      "52e81612bcbc57f1066b7a28",
+      "52e81612bcbc57f1066b7a27"
+    ]
+  },
+  {
+    "yahoo_genre_name": "サウナ",
+    "genre_code3": "418006",
+    "matched_fsq_id": [
+      "58daa1558bbb0b01f18ec1ae",
+      "4bf58dd8d48988d15e941735",
+      "4bf58dd8d48988d11c941735"
+    ]
+  }
+]

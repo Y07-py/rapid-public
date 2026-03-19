@@ -1,0 +1,20 @@
+services:
+  activity-log:
+    build: 
+      context: ./activity-log
+    container_name: activity-log
+    expose:
+      - "8081"
+    ports:
+      - "8081:8081"
+    volumes:
+      - .env:/app/.env:ro
+    networks:
+      - rapid-network
+    env_file:
+      - .env
+
+networks:
+  rapid-network:
+    external: true
+    name: rapid-network

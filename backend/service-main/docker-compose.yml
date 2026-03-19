@@ -1,0 +1,77 @@
+services:
+  proxy:
+    build: 
+      context: ./proxy
+    container_name: proxy
+    expose:
+      - "8080"
+    ports:
+      - "8080:8080"
+    volumes:
+      - .env:/app/.env:ro
+      - ./proxy/config:/app/config:ro
+      - tusd_data:/srv/tusd-data
+    environment:
+      - FIREBASE_CONFIG_PATH=/app/config/rapid-7df88-firebase-adminsdk-fbsvc-aad55b9c61.json
+    networks:
+      - rapid-network
+    env_file:
+      - .env
+
+  redis:
+    image: redis:7.2-alpine
+    restart: unless-stopped
+    command: >
+      redis-server
+      --appendonly yes
+      --appendfsync everysec
+      --save 900 1 --save 300 10 --save 60 10000
+      --requirepass ${REDIS_PASSWORD}
+    environment:
+      TZ: Asia/Tokyo
+    volumes:
+      - redisdata:/data
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -a ${REDIS_PASSWORD} ping | grep PONG"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - rapid-network
+    env_file:
+      - .env
+
+  tusd:
+    build:
+      context: ./tusd
+    container_name: tusd
+    expose:
+      - "8080"
+    ports:
+      - "8081:8080"
+    volumes:
+      - tusd_data:/srv/tusd-data
+    command: >
+      -upload-dir /srv/tusd-data
+      -base-path /api/upload/
+      -max-size 0
+      -behind-proxy
+      -hooks-http http://proxy:8080/api/upload_hook
+      -hooks-enabled-events post-receive,post-finish
+    networks:
+      - rapid-network
+    depends_on:
+      - proxy
+    env_file:
+      - .env
+
+networks:
+  rapid-network:
+    external: true
+    name: rapid-network
+
+volumes:
+  redisdata:
+  tusd_data:

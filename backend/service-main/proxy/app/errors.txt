@@ -1,0 +1,150 @@
+    Checking app v0.1.0 (/Users/yosuke/Develop/rapid/backend/services/proxy/app)
+warning: unused variable: `body`
+  --> src/location/search.rs:53:21
+   |
+53 |         if let Some(body) = body.clone() {
+   |                     ^^^^ help: if this is intentional, prefix it with an underscore: `_body`
+   |
+   = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `cache_worker_clone`
+   --> src/location/search.rs:168:17
+    |
+168 |             let cache_worker_clone = cache_worker.clone();
+    |                 ^^^^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_cache_worker_clone`
+
+error[E0616]: field `latitude` of struct `GooglePlacesSearchResponseLatLng` is private
+  --> src/recruitment/fetch.rs:80:64
+   |
+80 |                         let ids = compute_radius_place_ids(loc.latitude, loc.longitude, 5000.0, quad_tree).await;
+   |                                                                ^^^^^^^^ private field
+
+error[E0616]: field `longitude` of struct `GooglePlacesSearchResponseLatLng` is private
+  --> src/recruitment/fetch.rs:80:78
+   |
+80 |                         let ids = compute_radius_place_ids(loc.latitude, loc.longitude, 5000.0, quad_tree).await;
+   |                                                                              ^^^^^^^^^ private field
+
+error[E0616]: field `latitude` of struct `GooglePlacesSearchResponseLatLng` is private
+   --> src/recruitment/fetch.rs:121:72
+    |
+121 | ...                   let ids = compute_radius_place_ids(loc.latitude, loc.longitude, radius_meters, quad_tree).await;
+    |                                                              ^^^^^^^^ private field
+
+error[E0616]: field `longitude` of struct `GooglePlacesSearchResponseLatLng` is private
+   --> src/recruitment/fetch.rs:121:86
+    |
+121 | ...                   let ids = compute_radius_place_ids(loc.latitude, loc.longitude, radius_meters, quad_tree).await;
+    |                                                                            ^^^^^^^^^ private field
+
+warning: unused variable: `cache_worker`
+   --> src/recruitment/fetch.rs:169:5
+    |
+169 |     cache_worker: actix_web::web::Data<Arc<RwLock<cache::worker::CacheWorker>>>,
+    |     ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_cache_worker`
+
+warning: unused variable: `px`
+   --> src/place/search.rs:218:14
+    |
+218 |         let (px, py) = place::metrics::compute_pixel_coordinate(
+    |              ^^
+    |
+help: if this is intentional, prefix it with an underscore
+    |
+218 |         let (_px, py) = place::metrics::compute_pixel_coordinate(
+    |              +
+help: you might have meant to pattern match on the similarly named constant `R`
+    |
+218 -         let (px, py) = place::metrics::compute_pixel_coordinate(
+218 +         let (place::metrics::compute_spiral_tile_center::R, py) = place::metrics::compute_pixel_coordinate(
+    |
+
+warning: unused variable: `py`
+   --> src/place/search.rs:218:18
+    |
+218 |         let (px, py) = place::metrics::compute_pixel_coordinate(
+    |                  ^^
+    |
+help: if this is intentional, prefix it with an underscore
+    |
+218 |         let (px, _py) = place::metrics::compute_pixel_coordinate(
+    |                  +
+help: you might have meant to pattern match on the similarly named constant `R`
+    |
+218 -         let (px, py) = place::metrics::compute_pixel_coordinate(
+218 +         let (px, place::metrics::compute_spiral_tile_center::R) = place::metrics::compute_pixel_coordinate(
+    |
+
+warning: unused variable: `lt_x`
+   --> src/place/search.rs:231:14
+    |
+231 |         let (lt_x, lt_y) = (cx - gr_radius, cy - gr_radius);
+    |              ^^^^
+    |
+help: if this is intentional, prefix it with an underscore
+    |
+231 |         let (_lt_x, lt_y) = (cx - gr_radius, cy - gr_radius);
+    |              +
+help: you might have meant to pattern match on the similarly named constant `R`
+    |
+231 -         let (lt_x, lt_y) = (cx - gr_radius, cy - gr_radius);
+231 +         let (place::metrics::compute_spiral_tile_center::R, lt_y) = (cx - gr_radius, cy - gr_radius);
+    |
+
+warning: unused variable: `lt_y`
+   --> src/place/search.rs:231:20
+    |
+231 |         let (lt_x, lt_y) = (cx - gr_radius, cy - gr_radius);
+    |                    ^^^^
+    |
+help: if this is intentional, prefix it with an underscore
+    |
+231 |         let (lt_x, _lt_y) = (cx - gr_radius, cy - gr_radius);
+    |                    +
+help: you might have meant to pattern match on the similarly named constant `R`
+    |
+231 -         let (lt_x, lt_y) = (cx - gr_radius, cy - gr_radius);
+231 +         let (lt_x, place::metrics::compute_spiral_tile_center::R) = (cx - gr_radius, cy - gr_radius);
+    |
+
+warning: unused variable: `rb_x`
+   --> src/place/search.rs:232:14
+    |
+232 |         let (rb_x, rb_y) = (cx + gr_radius, cy + gr_radius);
+    |              ^^^^
+    |
+help: if this is intentional, prefix it with an underscore
+    |
+232 |         let (_rb_x, rb_y) = (cx + gr_radius, cy + gr_radius);
+    |              +
+help: you might have meant to pattern match on the similarly named constant `R`
+    |
+232 -         let (rb_x, rb_y) = (cx + gr_radius, cy + gr_radius);
+232 +         let (place::metrics::compute_spiral_tile_center::R, rb_y) = (cx + gr_radius, cy + gr_radius);
+    |
+
+warning: unused variable: `rb_y`
+   --> src/place/search.rs:232:20
+    |
+232 |         let (rb_x, rb_y) = (cx + gr_radius, cy + gr_radius);
+    |                    ^^^^
+    |
+help: if this is intentional, prefix it with an underscore
+    |
+232 |         let (rb_x, _rb_y) = (cx + gr_radius, cy + gr_radius);
+    |                    +
+help: you might have meant to pattern match on the similarly named constant `R`
+    |
+232 -         let (rb_x, rb_y) = (cx + gr_radius, cy + gr_radius);
+232 +         let (rb_x, place::metrics::compute_spiral_tile_center::R) = (cx + gr_radius, cy + gr_radius);
+    |
+
+warning: unused variable: `match_type`
+   --> src/place/search.rs:251:13
+    |
+251 |         let match_type = request_place_types.iter().any(|t| place_types.contains(t));
+    |             ^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_match_type`
+
+For more information about this error, try `rustc --explain E0616`.
+warning: `app` (bin "app") generated 10 warnings
+error: could not compile `app` (bin "app") due to 4 previous errors; 10 warnings emitted

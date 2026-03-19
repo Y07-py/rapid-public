@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="24512" systemVersion="25D125" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ChatRoomNotificationSettingEntity" representedClassName=".ChatRoomNotificationSettingEntity" syncable="YES">
+        <attribute name="isMessageNotification" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="roomId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="DataModel" representedClassName=".DataModel" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="data" optional="YES" attributeType="Binary"/>
+        <attribute name="typeName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="HttpCacheEntity" representedClassName=".HttpCacheEntity" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="data" optional="YES" attributeType="Binary" valueTransformerName="NSSecureTransformer"/>
+        <attribute name="expiresAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="key" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LikerIdEntity" representedClassName=".LikerIdEntity" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="likerId" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MatchEntity" representedClassName=".MatchEntity" syncable="YES">
+        <attribute name="chatId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="opponentId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="RecruitmentSearchFilterEntity" representedClassName=".RecruitmentSearchFilterEntity" syncable="YES">
+        <attribute name="fromAge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastLoginSort" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="locationKeyword" optional="YES" attributeType="String"/>
+        <attribute name="residenceRadius" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="toAge" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SearchQueryEntity" representedClassName=".SearchQueryEntity" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="query" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SupabaseSubscriptionEntity" representedClassName=".SupabaseSubscriptionEntity" syncable="YES">
+        <attribute name="channelId" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+</model>

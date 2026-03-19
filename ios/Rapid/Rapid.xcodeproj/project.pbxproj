@@ -1,0 +1,1215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CB9F2890433F8761B3D8F5B /* Pods_RapidUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDE58014A0BAA41ED9AB06D /* Pods_RapidUITests.framework */; };
+		331A49982EC8ED1600AB646A /* GooglePlacesSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 331A49972EC8ED1600AB646A /* GooglePlacesSwift */; };
+		331A499B2EC8ED4C00AB646A /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 331A499A2EC8ED4C00AB646A /* GoogleSignInSwift */; };
+		331BF73B2F699E6700177FD3 /* Rapid-Logo.icon in Resources */ = {isa = PBXBuildFile; fileRef = 331BF73A2F699E6700177FD3 /* Rapid-Logo.icon */; };
+		334FF0BE2F421F2500C938F8 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 334FF0BD2F421F2500C938F8 /* RevenueCat */; };
+		334FF0C02F421F2500C938F8 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 334FF0BF2F421F2500C938F8 /* RevenueCatUI */; };
+		3357BA7D2F2DECBF0047BEF3 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3357BA7C2F2DECBF0047BEF3 /* FirebaseAnalytics */; };
+		3357BA7F2F2DECBF0047BEF3 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 3357BA7E2F2DECBF0047BEF3 /* FirebaseMessaging */; };
+		3377C7562EC4108400FDE62D /* TUSKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7552EC4108400FDE62D /* TUSKit */; };
+		3377C7592EC410BE00FDE62D /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7582EC410BE00FDE62D /* Auth */; };
+		3377C75B2EC410BE00FDE62D /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C75A2EC410BE00FDE62D /* Functions */; };
+		3377C75D2EC410BE00FDE62D /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C75C2EC410BE00FDE62D /* PostgREST */; };
+		3377C75F2EC410BE00FDE62D /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C75E2EC410BE00FDE62D /* Realtime */; };
+		3377C7612EC410BE00FDE62D /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7602EC410BE00FDE62D /* Storage */; };
+		3377C7642EC410CF00FDE62D /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7632EC410CF00FDE62D /* PopupView */; };
+		3377C7672EC410E300FDE62D /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7662EC410E300FDE62D /* SDWebImageSwiftUI */; };
+		3377C76A2EC410F500FDE62D /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7692EC410F500FDE62D /* GoogleMaps */; };
+		3377C7722EC4111800FDE62D /* SwiftyCrop in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7712EC4111800FDE62D /* SwiftyCrop */; };
+		3377C7752EC4113800FDE62D /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7742EC4113800FDE62D /* Stevia */; };
+		3377C7782EC4116C00FDE62D /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7772EC4116C00FDE62D /* Auth0 */; };
+		3377C7802EC411EE00FDE62D /* BasicContainers in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C77F2EC411EE00FDE62D /* BasicContainers */; };
+		3377C7822EC411EE00FDE62D /* BitCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7812EC411EE00FDE62D /* BitCollections */; };
+		3377C7842EC411EE00FDE62D /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7832EC411EE00FDE62D /* Collections */; };
+		3377C7862EC411EE00FDE62D /* ContainersPreview in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7852EC411EE00FDE62D /* ContainersPreview */; };
+		3377C7882EC411EE00FDE62D /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C7872EC411EE00FDE62D /* DequeModule */; };
+		3377C78B2EC4131300FDE62D /* LineSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C78A2EC4131300FDE62D /* LineSDK */; };
+		3377C78D2EC4131300FDE62D /* LineSDKObjC in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C78C2EC4131300FDE62D /* LineSDKObjC */; };
+		3377C8FC2EC413BB00FDE62D /* CountryPickerView in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C8FB2EC413BB00FDE62D /* CountryPickerView */; };
+		3377C8FF2EC4141300FDE62D /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C8FE2EC4141300FDE62D /* PhoneNumberKit */; };
+		3377C9032EC4141300FDE62D /* PhoneNumberKit-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C9022EC4141300FDE62D /* PhoneNumberKit-Static */; };
+		3377C9062EC4144D00FDE62D /* SlidingTabView in Frameworks */ = {isa = PBXBuildFile; productRef = 3377C9052EC4144D00FDE62D /* SlidingTabView */; };
+		3377CA742EC41D3C00FDE62D /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3377CA732EC41D3C00FDE62D /* Supabase */; };
+		33A65E092ED2DDCA00D8188F /* WebUI in Frameworks */ = {isa = PBXBuildFile; productRef = 33A65E082ED2DDCA00D8188F /* WebUI */; };
+		33D8C2B12EC9741E00B34F01 /* TLPhotoPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 33D8C2B02EC9741E00B34F01 /* TLPhotoPicker */; };
+		33EBD1572F310D3300075E4F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 33EBD1562F310D3300075E4F /* Lottie */; };
+		6D52C1FFACC6FD10BAC90204 /* Pods_RapidTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6436A16E3CB56332079A8176 /* Pods_RapidTests.framework */; };
+		77773CEE5689C3C207DFA39B /* Pods_Rapid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08318F09ABE2DAB3CB86D74B /* Pods_Rapid.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33474CE42E430A7E00A14E00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33474CCE2E430A7B00A14E00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33474CD52E430A7B00A14E00;
+			remoteInfo = Rapid;
+		};
+		33474CEE2E430A7E00A14E00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33474CCE2E430A7B00A14E00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33474CD52E430A7B00A14E00;
+			remoteInfo = Rapid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08318F09ABE2DAB3CB86D74B /* Pods_Rapid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rapid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A83583E6082195F4007CA19 /* Pods-Rapid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rapid.debug.xcconfig"; path = "Target Support Files/Pods-Rapid/Pods-Rapid.debug.xcconfig"; sourceTree = "<group>"; };
+		2CDE58014A0BAA41ED9AB06D /* Pods_RapidUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RapidUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		331BF73A2F699E6700177FD3 /* Rapid-Logo.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "Rapid-Logo.icon"; sourceTree = "<group>"; };
+		33474CD62E430A7B00A14E00 /* Rapid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rapid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33474CE32E430A7E00A14E00 /* RapidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33474CED2E430A7E00A14E00 /* RapidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E79DB7B557E9FE3A81AD58 /* Pods-Rapid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rapid.release.xcconfig"; path = "Target Support Files/Pods-Rapid/Pods-Rapid.release.xcconfig"; sourceTree = "<group>"; };
+		6436A16E3CB56332079A8176 /* Pods_RapidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RapidTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C4AE40862F4DAF1D0CF821 /* Pods-RapidTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidTests.debug.xcconfig"; path = "Target Support Files/Pods-RapidTests/Pods-RapidTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9643BF6D5153C70881B5568A /* Pods-RapidUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidUITests.release.xcconfig"; path = "Target Support Files/Pods-RapidUITests/Pods-RapidUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DA3F7670F5F81D85A1F7EA2 /* Pods-RapidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidTests.release.xcconfig"; path = "Target Support Files/Pods-RapidTests/Pods-RapidTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE5B33836832207E5F008333 /* Pods-RapidUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RapidUITests.debug.xcconfig"; path = "Target Support Files/Pods-RapidUITests/Pods-RapidUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		33A4C9582EAF9B9A00B53FD7 /* Exceptions for "Rapid" folder in "Rapid" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 33474CD52E430A7B00A14E00 /* Rapid */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		33474CD82E430A7B00A14E00 /* Rapid */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				33A4C9582EAF9B9A00B53FD7 /* Exceptions for "Rapid" folder in "Rapid" target */,
+			);
+			path = Rapid;
+			sourceTree = "<group>";
+		};
+		33474CE62E430A7E00A14E00 /* RapidTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RapidTests;
+			sourceTree = "<group>";
+		};
+		33474CF02E430A7E00A14E00 /* RapidUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RapidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33474CD32E430A7B00A14E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3357BA7F2F2DECBF0047BEF3 /* FirebaseMessaging in Frameworks */,
+				3377C7642EC410CF00FDE62D /* PopupView in Frameworks */,
+				3377C9032EC4141300FDE62D /* PhoneNumberKit-Static in Frameworks */,
+				3377C7842EC411EE00FDE62D /* Collections in Frameworks */,
+				3377C78D2EC4131300FDE62D /* LineSDKObjC in Frameworks */,
+				3377C7562EC4108400FDE62D /* TUSKit in Frameworks */,
+				3377C7802EC411EE00FDE62D /* BasicContainers in Frameworks */,
+				3377C76A2EC410F500FDE62D /* GoogleMaps in Frameworks */,
+				331A499B2EC8ED4C00AB646A /* GoogleSignInSwift in Frameworks */,
+				3357BA7D2F2DECBF0047BEF3 /* FirebaseAnalytics in Frameworks */,
+				33D8C2B12EC9741E00B34F01 /* TLPhotoPicker in Frameworks */,
+				3377C78B2EC4131300FDE62D /* LineSDK in Frameworks */,
+				3377C7782EC4116C00FDE62D /* Auth0 in Frameworks */,
+				331A49982EC8ED1600AB646A /* GooglePlacesSwift in Frameworks */,
+				334FF0C02F421F2500C938F8 /* RevenueCatUI in Frameworks */,
+				3377C8FF2EC4141300FDE62D /* PhoneNumberKit in Frameworks */,
+				3377C7672EC410E300FDE62D /* SDWebImageSwiftUI in Frameworks */,
+				3377C7612EC410BE00FDE62D /* Storage in Frameworks */,
+				3377C75B2EC410BE00FDE62D /* Functions in Frameworks */,
+				3377C7722EC4111800FDE62D /* SwiftyCrop in Frameworks */,
+				3377C75F2EC410BE00FDE62D /* Realtime in Frameworks */,
+				3377C7592EC410BE00FDE62D /* Auth in Frameworks */,
+				3377CA742EC41D3C00FDE62D /* Supabase in Frameworks */,
+				3377C7862EC411EE00FDE62D /* ContainersPreview in Frameworks */,
+				33EBD1572F310D3300075E4F /* Lottie in Frameworks */,
+				3377C7822EC411EE00FDE62D /* BitCollections in Frameworks */,
+				3377C7752EC4113800FDE62D /* Stevia in Frameworks */,
+				334FF0BE2F421F2500C938F8 /* RevenueCat in Frameworks */,
+				33A65E092ED2DDCA00D8188F /* WebUI in Frameworks */,
+				3377C75D2EC410BE00FDE62D /* PostgREST in Frameworks */,
+				3377C9062EC4144D00FDE62D /* SlidingTabView in Frameworks */,
+				3377C8FC2EC413BB00FDE62D /* CountryPickerView in Frameworks */,
+				3377C7882EC411EE00FDE62D /* DequeModule in Frameworks */,
+				77773CEE5689C3C207DFA39B /* Pods_Rapid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33474CE02E430A7E00A14E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D52C1FFACC6FD10BAC90204 /* Pods_RapidTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33474CEA2E430A7E00A14E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB9F2890433F8761B3D8F5B /* Pods_RapidUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33474CCD2E430A7B00A14E00 = {
+			isa = PBXGroup;
+			children = (
+				331BF73A2F699E6700177FD3 /* Rapid-Logo.icon */,
+				33474CD82E430A7B00A14E00 /* Rapid */,
+				33474CE62E430A7E00A14E00 /* RapidTests */,
+				33474CF02E430A7E00A14E00 /* RapidUITests */,
+				33474CD72E430A7B00A14E00 /* Products */,
+				5EF04CE085A4FD0EE3F3526B /* Pods */,
+				84B98A098591B7A2515B4241 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33474CD72E430A7B00A14E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33474CD62E430A7B00A14E00 /* Rapid.app */,
+				33474CE32E430A7E00A14E00 /* RapidTests.xctest */,
+				33474CED2E430A7E00A14E00 /* RapidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EF04CE085A4FD0EE3F3526B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A83583E6082195F4007CA19 /* Pods-Rapid.debug.xcconfig */,
+				56E79DB7B557E9FE3A81AD58 /* Pods-Rapid.release.xcconfig */,
+				84C4AE40862F4DAF1D0CF821 /* Pods-RapidTests.debug.xcconfig */,
+				9DA3F7670F5F81D85A1F7EA2 /* Pods-RapidTests.release.xcconfig */,
+				CE5B33836832207E5F008333 /* Pods-RapidUITests.debug.xcconfig */,
+				9643BF6D5153C70881B5568A /* Pods-RapidUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84B98A098591B7A2515B4241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08318F09ABE2DAB3CB86D74B /* Pods_Rapid.framework */,
+				6436A16E3CB56332079A8176 /* Pods_RapidTests.framework */,
+				2CDE58014A0BAA41ED9AB06D /* Pods_RapidUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33474CD52E430A7B00A14E00 /* Rapid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33474CF72E430A7E00A14E00 /* Build configuration list for PBXNativeTarget "Rapid" */;
+			buildPhases = (
+				96D7BDE34959D4FA1E32D735 /* [CP] Check Pods Manifest.lock */,
+				33474CD22E430A7B00A14E00 /* Sources */,
+				33474CD32E430A7B00A14E00 /* Frameworks */,
+				33474CD42E430A7B00A14E00 /* Resources */,
+				5F2781042E60872AAA1A6B1D /* [CP] Embed Pods Frameworks */,
+				42F145286981F35E26778B0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				33474CD82E430A7B00A14E00 /* Rapid */,
+			);
+			name = Rapid;
+			packageProductDependencies = (
+				3377C7552EC4108400FDE62D /* TUSKit */,
+				3377C7582EC410BE00FDE62D /* Auth */,
+				3377C75A2EC410BE00FDE62D /* Functions */,
+				3377C75C2EC410BE00FDE62D /* PostgREST */,
+				3377C75E2EC410BE00FDE62D /* Realtime */,
+				3377C7602EC410BE00FDE62D /* Storage */,
+				3377C7632EC410CF00FDE62D /* PopupView */,
+				3377C7662EC410E300FDE62D /* SDWebImageSwiftUI */,
+				3377C7692EC410F500FDE62D /* GoogleMaps */,
+				3377C7712EC4111800FDE62D /* SwiftyCrop */,
+				3377C7742EC4113800FDE62D /* Stevia */,
+				3377C7772EC4116C00FDE62D /* Auth0 */,
+				3377C77F2EC411EE00FDE62D /* BasicContainers */,
+				3377C7812EC411EE00FDE62D /* BitCollections */,
+				3377C7832EC411EE00FDE62D /* Collections */,
+				3377C7852EC411EE00FDE62D /* ContainersPreview */,
+				3377C7872EC411EE00FDE62D /* DequeModule */,
+				3377C78A2EC4131300FDE62D /* LineSDK */,
+				3377C78C2EC4131300FDE62D /* LineSDKObjC */,
+				3377C8FB2EC413BB00FDE62D /* CountryPickerView */,
+				3377C8FE2EC4141300FDE62D /* PhoneNumberKit */,
+				3377C9022EC4141300FDE62D /* PhoneNumberKit-Static */,
+				3377C9052EC4144D00FDE62D /* SlidingTabView */,
+				3377CA732EC41D3C00FDE62D /* Supabase */,
+				331A49972EC8ED1600AB646A /* GooglePlacesSwift */,
+				331A499A2EC8ED4C00AB646A /* GoogleSignInSwift */,
+				33D8C2B02EC9741E00B34F01 /* TLPhotoPicker */,
+				33A65E082ED2DDCA00D8188F /* WebUI */,
+				3357BA7C2F2DECBF0047BEF3 /* FirebaseAnalytics */,
+				3357BA7E2F2DECBF0047BEF3 /* FirebaseMessaging */,
+				33EBD1562F310D3300075E4F /* Lottie */,
+				334FF0BD2F421F2500C938F8 /* RevenueCat */,
+				334FF0BF2F421F2500C938F8 /* RevenueCatUI */,
+			);
+			productName = Rapid;
+			productReference = 33474CD62E430A7B00A14E00 /* Rapid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33474CE22E430A7E00A14E00 /* RapidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33474CFA2E430A7E00A14E00 /* Build configuration list for PBXNativeTarget "RapidTests" */;
+			buildPhases = (
+				787903B5D4A6A642E5063163 /* [CP] Check Pods Manifest.lock */,
+				33474CDF2E430A7E00A14E00 /* Sources */,
+				33474CE02E430A7E00A14E00 /* Frameworks */,
+				33474CE12E430A7E00A14E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33474CE52E430A7E00A14E00 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				33474CE62E430A7E00A14E00 /* RapidTests */,
+			);
+			name = RapidTests;
+			productName = RapidTests;
+			productReference = 33474CE32E430A7E00A14E00 /* RapidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33474CEC2E430A7E00A14E00 /* RapidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33474CFD2E430A7E00A14E00 /* Build configuration list for PBXNativeTarget "RapidUITests" */;
+			buildPhases = (
+				21700390574762079A52819B /* [CP] Check Pods Manifest.lock */,
+				33474CE92E430A7E00A14E00 /* Sources */,
+				33474CEA2E430A7E00A14E00 /* Frameworks */,
+				33474CEB2E430A7E00A14E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33474CEF2E430A7E00A14E00 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				33474CF02E430A7E00A14E00 /* RapidUITests */,
+			);
+			name = RapidUITests;
+			productName = RapidUITests;
+			productReference = 33474CED2E430A7E00A14E00 /* RapidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33474CCE2E430A7B00A14E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					33474CD52E430A7B00A14E00 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					33474CE22E430A7E00A14E00 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 33474CD52E430A7B00A14E00;
+					};
+					33474CEC2E430A7E00A14E00 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 33474CD52E430A7B00A14E00;
+					};
+				};
+			};
+			buildConfigurationList = 33474CD12E430A7B00A14E00 /* Build configuration list for PBXProject "Rapid" */;
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ja,
+			);
+			mainGroup = 33474CCD2E430A7B00A14E00;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3377C7542EC4108400FDE62D /* XCRemoteSwiftPackageReference "TUSKit" */,
+				3377C7572EC410BE00FDE62D /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				3377C7622EC410CF00FDE62D /* XCRemoteSwiftPackageReference "PopupView" */,
+				3377C7652EC410E300FDE62D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				3377C7682EC410F500FDE62D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				3377C7702EC4111800FDE62D /* XCRemoteSwiftPackageReference "SwiftyCrop" */,
+				3377C7732EC4113800FDE62D /* XCRemoteSwiftPackageReference "Stevia" */,
+				3377C7762EC4116C00FDE62D /* XCRemoteSwiftPackageReference "Auth0.swift" */,
+				3377C77E2EC411EE00FDE62D /* XCRemoteSwiftPackageReference "swift-collections" */,
+				3377C7892EC4131300FDE62D /* XCRemoteSwiftPackageReference "line-sdk-ios-swift" */,
+				3377C8FA2EC413BA00FDE62D /* XCRemoteSwiftPackageReference "CountryPickerView" */,
+				3377C8FD2EC4141300FDE62D /* XCRemoteSwiftPackageReference "PhoneNumberKit" */,
+				3377C9042EC4144D00FDE62D /* XCRemoteSwiftPackageReference "SlidingTabView" */,
+				331A49962EC8ED1600AB646A /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+				331A49992EC8ED4C00AB646A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				33D8C2AF2EC9741E00B34F01 /* XCRemoteSwiftPackageReference "TLPhotoPicker" */,
+				33A65E072ED2DDCA00D8188F /* XCRemoteSwiftPackageReference "WebUI" */,
+				3357BA7B2F2DECBF0047BEF3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				33EBD1552F310D3300075E4F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				334FF0BC2F421F2500C938F8 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 33474CD72E430A7B00A14E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33474CD52E430A7B00A14E00 /* Rapid */,
+				33474CE22E430A7E00A14E00 /* RapidTests */,
+				33474CEC2E430A7E00A14E00 /* RapidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33474CD42E430A7B00A14E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331BF73B2F699E6700177FD3 /* Rapid-Logo.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33474CE12E430A7E00A14E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33474CEB2E430A7E00A14E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21700390574762079A52819B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RapidUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42F145286981F35E26778B0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rapid/Pods-Rapid-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rapid/Pods-Rapid-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rapid/Pods-Rapid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2781042E60872AAA1A6B1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rapid/Pods-Rapid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rapid/Pods-Rapid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rapid/Pods-Rapid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787903B5D4A6A642E5063163 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RapidTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D7BDE34959D4FA1E32D735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rapid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33474CD22E430A7B00A14E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33474CDF2E430A7E00A14E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33474CE92E430A7E00A14E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33474CE52E430A7E00A14E00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33474CD52E430A7B00A14E00 /* Rapid */;
+			targetProxy = 33474CE42E430A7E00A14E00 /* PBXContainerItemProxy */;
+		};
+		33474CEF2E430A7E00A14E00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33474CD52E430A7B00A14E00 /* Rapid */;
+			targetProxy = 33474CEE2E430A7E00A14E00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33474CF52E430A7E00A14E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 42D77CQKPZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33474CF62E430A7E00A14E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 42D77CQKPZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33474CF82E430A7E00A14E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A83583E6082195F4007CA19 /* Pods-Rapid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Rapid-Logo";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Rapid/Rapid.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42D77CQKPZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rapid/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSCameraUsageDescription = "このアプリケーションはカメラへのアクセスを必要としています。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "このアプリケーションは地図表示のために現在地を使用します。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ボイスチャット機能を利用するためにマイクへのアクセスが必要です。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "このアプリケーションはライブラリへのアクセスを必要としています。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ysuke.Rapid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33474CF92E430A7E00A14E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E79DB7B557E9FE3A81AD58 /* Pods-Rapid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Rapid-Logo";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Rapid/Rapid.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42D77CQKPZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rapid/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSCameraUsageDescription = "このアプリケーションはカメラへのアクセスを必要としています。";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "このアプリケーションは地図表示のために現在地を使用します。";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ボイスチャット機能を利用するためにマイクへのアクセスが必要です。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "このアプリケーションはライブラリへのアクセスを必要としています。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ysuke.Rapid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33474CFB2E430A7E00A14E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C4AE40862F4DAF1D0CF821 /* Pods-RapidTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42D77CQKPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ysuke.RapidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rapid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rapid";
+			};
+			name = Debug;
+		};
+		33474CFC2E430A7E00A14E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DA3F7670F5F81D85A1F7EA2 /* Pods-RapidTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42D77CQKPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ysuke.RapidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rapid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rapid";
+			};
+			name = Release;
+		};
+		33474CFE2E430A7E00A14E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5B33836832207E5F008333 /* Pods-RapidUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42D77CQKPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ysuke.RapidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rapid;
+			};
+			name = Debug;
+		};
+		33474CFF2E430A7E00A14E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9643BF6D5153C70881B5568A /* Pods-RapidUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42D77CQKPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ysuke.RapidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rapid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33474CD12E430A7B00A14E00 /* Build configuration list for PBXProject "Rapid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33474CF52E430A7E00A14E00 /* Debug */,
+				33474CF62E430A7E00A14E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33474CF72E430A7E00A14E00 /* Build configuration list for PBXNativeTarget "Rapid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33474CF82E430A7E00A14E00 /* Debug */,
+				33474CF92E430A7E00A14E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33474CFA2E430A7E00A14E00 /* Build configuration list for PBXNativeTarget "RapidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33474CFB2E430A7E00A14E00 /* Debug */,
+				33474CFC2E430A7E00A14E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33474CFD2E430A7E00A14E00 /* Build configuration list for PBXNativeTarget "RapidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33474CFE2E430A7E00A14E00 /* Debug */,
+				33474CFF2E430A7E00A14E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		331A49962EC8ED1600AB646A /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.4.0;
+			};
+		};
+		331A49992EC8ED4C00AB646A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		334FF0BC2F421F2500C938F8 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.59.0;
+			};
+		};
+		3357BA7B2F2DECBF0047BEF3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+		3377C7542EC4108400FDE62D /* XCRemoteSwiftPackageReference "TUSKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tus/TUSKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.0;
+			};
+		};
+		3377C7572EC410BE00FDE62D /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+		3377C7622EC410CF00FDE62D /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.15;
+			};
+		};
+		3377C7652EC410E300FDE62D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.4;
+			};
+		};
+		3377C7682EC410F500FDE62D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.4.0;
+			};
+		};
+		3377C7702EC4111800FDE62D /* XCRemoteSwiftPackageReference "SwiftyCrop" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/benedom/SwiftyCrop.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3377C7732EC4113800FDE62D /* XCRemoteSwiftPackageReference "Stevia" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/Stevia.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.2;
+			};
+		};
+		3377C7762EC4116C00FDE62D /* XCRemoteSwiftPackageReference "Auth0.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.15.1;
+			};
+		};
+		3377C77E2EC411EE00FDE62D /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+		3377C7892EC4131300FDE62D /* XCRemoteSwiftPackageReference "line-sdk-ios-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/line/line-sdk-ios-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.14.0;
+			};
+		};
+		3377C8FA2EC413BA00FDE62D /* XCRemoteSwiftPackageReference "CountryPickerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kizitonwose/CountryPickerView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.3.0;
+			};
+		};
+		3377C8FD2EC4141300FDE62D /* XCRemoteSwiftPackageReference "PhoneNumberKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/PhoneNumberKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.9;
+			};
+		};
+		3377C9042EC4144D00FDE62D /* XCRemoteSwiftPackageReference "SlidingTabView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QuynhNguyen/SlidingTabView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		33A65E072ED2DDCA00D8188F /* XCRemoteSwiftPackageReference "WebUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cybozu/WebUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.1;
+			};
+		};
+		33D8C2AF2EC9741E00B34F01 /* XCRemoteSwiftPackageReference "TLPhotoPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tilltue/TLPhotoPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.13;
+			};
+		};
+		33EBD1552F310D3300075E4F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		331A49972EC8ED1600AB646A /* GooglePlacesSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 331A49962EC8ED1600AB646A /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlacesSwift;
+		};
+		331A499A2EC8ED4C00AB646A /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 331A49992EC8ED4C00AB646A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		334FF0BD2F421F2500C938F8 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 334FF0BC2F421F2500C938F8 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		334FF0BF2F421F2500C938F8 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 334FF0BC2F421F2500C938F8 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
+		3357BA7C2F2DECBF0047BEF3 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3357BA7B2F2DECBF0047BEF3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3357BA7E2F2DECBF0047BEF3 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3357BA7B2F2DECBF0047BEF3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		3377C7552EC4108400FDE62D /* TUSKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7542EC4108400FDE62D /* XCRemoteSwiftPackageReference "TUSKit" */;
+			productName = TUSKit;
+		};
+		3377C7582EC410BE00FDE62D /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7572EC410BE00FDE62D /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		3377C75A2EC410BE00FDE62D /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7572EC410BE00FDE62D /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		3377C75C2EC410BE00FDE62D /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7572EC410BE00FDE62D /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		3377C75E2EC410BE00FDE62D /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7572EC410BE00FDE62D /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		3377C7602EC410BE00FDE62D /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7572EC410BE00FDE62D /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		3377C7632EC410CF00FDE62D /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7622EC410CF00FDE62D /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+		3377C7662EC410E300FDE62D /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7652EC410E300FDE62D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		3377C7692EC410F500FDE62D /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7682EC410F500FDE62D /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		3377C7712EC4111800FDE62D /* SwiftyCrop */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7702EC4111800FDE62D /* XCRemoteSwiftPackageReference "SwiftyCrop" */;
+			productName = SwiftyCrop;
+		};
+		3377C7742EC4113800FDE62D /* Stevia */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7732EC4113800FDE62D /* XCRemoteSwiftPackageReference "Stevia" */;
+			productName = Stevia;
+		};
+		3377C7772EC4116C00FDE62D /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7762EC4116C00FDE62D /* XCRemoteSwiftPackageReference "Auth0.swift" */;
+			productName = Auth0;
+		};
+		3377C77F2EC411EE00FDE62D /* BasicContainers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C77E2EC411EE00FDE62D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = BasicContainers;
+		};
+		3377C7812EC411EE00FDE62D /* BitCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C77E2EC411EE00FDE62D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = BitCollections;
+		};
+		3377C7832EC411EE00FDE62D /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C77E2EC411EE00FDE62D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		3377C7852EC411EE00FDE62D /* ContainersPreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C77E2EC411EE00FDE62D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = ContainersPreview;
+		};
+		3377C7872EC411EE00FDE62D /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C77E2EC411EE00FDE62D /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		3377C78A2EC4131300FDE62D /* LineSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7892EC4131300FDE62D /* XCRemoteSwiftPackageReference "line-sdk-ios-swift" */;
+			productName = LineSDK;
+		};
+		3377C78C2EC4131300FDE62D /* LineSDKObjC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7892EC4131300FDE62D /* XCRemoteSwiftPackageReference "line-sdk-ios-swift" */;
+			productName = LineSDKObjC;
+		};
+		3377C8FB2EC413BB00FDE62D /* CountryPickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C8FA2EC413BA00FDE62D /* XCRemoteSwiftPackageReference "CountryPickerView" */;
+			productName = CountryPickerView;
+		};
+		3377C8FE2EC4141300FDE62D /* PhoneNumberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C8FD2EC4141300FDE62D /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = PhoneNumberKit;
+		};
+		3377C9022EC4141300FDE62D /* PhoneNumberKit-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C8FD2EC4141300FDE62D /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = "PhoneNumberKit-Static";
+		};
+		3377C9052EC4144D00FDE62D /* SlidingTabView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C9042EC4144D00FDE62D /* XCRemoteSwiftPackageReference "SlidingTabView" */;
+			productName = SlidingTabView;
+		};
+		3377CA732EC41D3C00FDE62D /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3377C7572EC410BE00FDE62D /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		33A65E082ED2DDCA00D8188F /* WebUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33A65E072ED2DDCA00D8188F /* XCRemoteSwiftPackageReference "WebUI" */;
+			productName = WebUI;
+		};
+		33D8C2B02EC9741E00B34F01 /* TLPhotoPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33D8C2AF2EC9741E00B34F01 /* XCRemoteSwiftPackageReference "TLPhotoPicker" */;
+			productName = TLPhotoPicker;
+		};
+		33EBD1562F310D3300075E4F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33EBD1552F310D3300075E4F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 33474CCE2E430A7B00A14E00 /* Project object */;
+}
