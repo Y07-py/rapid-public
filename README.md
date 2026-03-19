@@ -1,5 +1,5 @@
 # はじめに
 このリポジトリは公開用に作成されたもので、開発用のリポジトリは非公開で開発をしていました。
 # 概要
-<img src="/img/Rapid-Logo.png", alt="Rapid-Logo", width=300, height=300>
+<img src="/img/Rapid-Logo.png", alt="Rapid-Logo", width=300>
 
