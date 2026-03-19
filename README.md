@@ -1,4 +1,5 @@
 # はじめに
-このリポジトリは公開用に作成されたもので、開発用のリポジトリはprivateの非公開リポジトリでこれまで開発をしていました。
+このリポジトリは公開用に作成されたもので、開発用のリポジトリは非公開で開発をしていました。
 # 概要
-![Rapid-Logo](img/Rapid-Logo.png)
+<img src="/img/Rapid-Logo.png", alt="Rapid-Logo", width=300, height=300>
+
